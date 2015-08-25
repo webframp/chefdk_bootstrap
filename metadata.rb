@@ -23,10 +23,12 @@ version          '1.2.4'
 supports 'windows'
 supports 'mac_os_x'
 
-depends 'windows', '~> 1.37'
 depends 'chocolatey', '~> 0.4'
 depends 'git', '~> 4.3'
 depends 'homebrew', '~> 1.13'
+depends 'vagrant', '~> 0.3'
+depends 'windows', '~> 1.37'
+
 
 source_url 'https://github.com/Nordstrom/chefdk_bootstrap'
 issues_url 'https://github.com/Nordstrom/chefdk_bootstrap/issues'
