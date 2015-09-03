@@ -14,6 +14,7 @@
 #
 
 default['chocolatey']['upgrade'] = false
+default['vagrant']['msi_version'] = '1.7.4'
 
 default['chefdk_bootstrap']['atom']['source_url'] =
   value_for_platform_family(
